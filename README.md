@@ -36,7 +36,7 @@ Run on Linux/Mac Terminal
     $ flask init-db
     $ flask run
 
-Run on Windows cmd
+Run on Windows CMD/PS
 
     > set FLASK_APP=F-Blog
     > set FLASK_ENV=development
