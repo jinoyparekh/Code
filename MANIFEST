@@ -1,0 +1,6 @@
+include LICENSE
+include F-BLOG/schema.sql
+graft F-BLOG/static
+graft F-BLOG/templates
+graft tests
+global-exclude *.pyc
