@@ -16,3 +16,4 @@ plot Bullish = IsDescending(open, trendSetup)[1] and
 Bullish.SetPaintingStrategy(PaintingStrategy.BOOLEAN_ARROW_UP);
 Bullish.SetDefaultColor(GetColor(8));
 Bullish.SetLineWeight(2);
+Alert(Bullish, " ", Alert.Bar, Sound.Chimes);
