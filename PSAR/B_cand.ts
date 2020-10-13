@@ -16,3 +16,4 @@ plot Bearish = IsAscending(open, trendSetup)[1] and
 Bearish.SetPaintingStrategy(PaintingStrategy.BOOLEAN_ARROW_DOWN);
 Bearish.SetDefaultColor(GetColor(1));
 Bearish.SetLineWeight(2);
+Alert(Bearish, " ", Alert.Bar, Sound.Bell);
